@@ -1,0 +1,44 @@
+/* Flex container to hold both the input and the button */
+.input-button-container {
+    display: flex; /* Arrange input and button side by side */
+    align-items: center; /* Vertically align them */
+    gap: 10px; /* Add space between the input and the button */
+}
+
+/* Ensure the input takes up reasonable space */
+.float-label-wrapper {
+    flex-grow: 1; /* Make the input take up available space */
+}
+
+/* The input box width */
+.wide-input {
+    width: 160%; /* Full width within the wrapper */
+    max-width: 400px; /* Optional: Set a maximum width */
+}
+
+.custom-label {
+    font-size: 14px; /* Customize font size */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow if the text is too long */
+    text-overflow: ellipsis; /* Add "..." if text overflows */
+    display: block; /* Ensure it takes full width */
+    text-align: center; /* Center text horizontally */
+    margin: 0; /* Reset any margin */
+    
+}
+
+/* Button is now properly aligned next to the input */
+.search-button {
+    margin-left: 125px;
+    height: fit-content; /* Adjust button height */
+}
+
+.p-button .pi {
+    color: purple;
+}
+
+.search-button.p-button-success:focus,
+.search-button.p-button-success:active {
+  border-color: purple !important; /* Change the border color to purple */
+  box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.25) !important; /* Optional: change the shadow color to match */
+}

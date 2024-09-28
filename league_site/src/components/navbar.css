@@ -1,0 +1,15 @@
+.navbar {
+    background-color: rgb(192, 140, 215);
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Pushes left navbar to the left and right navbar to the right */
+    align-items: center; /* Aligns items vertically in the center */
+    width: 100%; /* Ensures the navbar spans the full width */
+    padding: 10px 20px; /* Adds padding to prevent content from touching the edges */
+    box-sizing: border-box; /* Includes padding in the element's total width */
+    position: fixed; /* Keeps the navbar at the top of the screen */
+    top: 0;
+    left: 0;
+    border-bottom: 3px solid rgb(154, 112, 172); /* Adds a 3px dark border */
+    border-radius: 0px; /* Optional: Rounds the corners of the border */
+    position: static;
+}

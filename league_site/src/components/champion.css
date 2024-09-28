@@ -1,0 +1,133 @@
+/* profile.css */
+.profile {
+    background-color: whitesmoke; /* Replace with your desired color */
+    padding: 20px;
+    height: 100%; /* Make it cover the entire viewport height */
+    box-sizing: border-box; /* Ensure padding is included in the element's width and height */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: left; /* Centers the content horizontally */
+    align-items: flex-start; /* Aligns items to the start of the cross-axis (top) */
+    gap: 20px; /* Adds space between the sections */
+    padding: 20px;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
+  }
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: purple; /* Adjust background color as needed */
+    min-height: 200px; /* Ensure a minimum height for equal card sizes */
+    height: 100%; /* Ensures cards stretch to the same height */
+}
+
+  .summoner-info {
+    display: flex; /* Enables flexbox */
+    align-items: stretch; /* Stretches items to have the same height */
+    gap: 20px; /* Adds space between the panels */
+    /* Optional: Define a fixed width or max-width if needed */
+    max-width: 600px; /* Adjust width as needed */
+  }
+  
+  .rank-info {
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Aligns items vertically centered */
+    gap: 10px; /* Adds space between the icon and the details */
+  }
+  
+
+  
+  .panel {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; /* Enables flexbox for the card content */
+    flex-direction: column; /* Stack card content vertically */
+    justify-content: space-between; /* Ensure content is spaced evenly */
+  }
+  
+  .match-display {
+    padding: 5px;
+  }
+  .champion-display {
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  .champion-card {
+    margin-top: -20px; /* Adjust top margin as needed */
+    margin-bottom: -20px;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 columns of equal width */
+    gap: 16px; /* Space between the cards */
+    margin: 0 auto; /* Center the grid container */
+    max-width: 1200px; /* Adjust width as needed */
+  }
+  
+  .card-item {
+    flex: 1; /* Ensure both cards take equal space */
+    display: flex; /* Make card content fill available space */
+    flex-direction: column; /* Align content vertically */
+    height: 100%; /* Full height of the card */
+  }
+  .tab-content {
+    border: 2px solid; /* Default border style to be overridden by JS */
+    border-radius: 8px; /* Rounded corners */
+    padding: 8px; /* Padding inside the border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for a lifted effect */
+    /* Additional styles as needed */
+  }
+  
+  .card-top {
+    display: flex;
+    gap: 16px; /* Adjust space between cards as needed */
+}
+.charts-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if there is not enough space */
+    gap: 20px; /* Space between each graph container */
+  }
+  
+  .graph-container {
+    display: flex;
+    flex-direction: column; /* Stack heading and chart vertically */
+    align-items: center; /* Center align heading and chart */
+    flex: 1; /* Allows the container to grow and shrink as needed */
+  }
+  
+  .graph-container h3 {
+    margin-bottom: 16px; /* Space between heading and chart */
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 columns of equal width */
+    gap: 16px; /* Space between the cards */
+    margin: 0 auto; /* Center the grid container */
+    max-width: 1200px; /* Adjust width as needed */
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  /* Push the footer to the bottom of the wrapper */
+  .wrapper {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    min-height: 100vh; /* Full viewport height */
+  }
+  html, body {
+    height: 100%; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+  }

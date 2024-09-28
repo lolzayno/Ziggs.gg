@@ -1,0 +1,19 @@
+.rightnav {
+    display: flex; /* Enables Flexbox for right navbar buttons */
+    gap: 10px; /* Adds a 10px gap between the buttons */
+    align-items: center; /* Aligns the buttons vertically in the center */
+  }
+  
+  .custom-button {
+    background-color: rgb(192, 140, 215) !important;
+    border-color: rgb(192, 140, 215) !important;
+    color: rgb(239, 213, 250) !important;
+    font-family: 'Monaco', monospace;
+    font-size: 1rem !important;
+}
+
+.custom-button:hover {
+  background-color: rgb(160, 115, 185) !important;
+  border-color: rgb(160, 115, 185) !important;
+  color: white !important;
+}

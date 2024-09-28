@@ -1,0 +1,64 @@
+.footer-other {
+    background-color: rgb(192, 140, 215); /* Background color of the footer */
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Align items vertically */
+    width: 100%; /* Ensures the footer spans the full width */
+    padding: 10px 20px; /* Adds padding to prevent content from touching the edges */
+    box-sizing: border-box; /* Includes padding in the element's total width */
+    border-top: 3px solid rgb(154, 112, 172); /* Adds a 3px border on top */
+    color: white;
+    font-family: 'Monaco', monospace;
+}
+
+
+
+
+.social {
+    display: flex; /* Use Flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    width: 100%; /* Ensures the footer spans the full width */
+    gap: 150px; /* Space between sections */
+}
+
+.social-content {
+    position: relative; /* Enables absolute positioning of children */
+    display: flex; /* Use Flexbox layout */
+    flex-direction: column; /* Align items vertically */
+    align-items: flex-start; /* Align items to the left */
+}
+
+.social h4 {
+    margin: 0; /* Remove default margin around h4 */
+    font-size: 1.15rem;
+}
+
+.social p {
+    margin: 0; /* Remove default margin from p elements */
+    font-size: 0.8rem;
+}
+
+.social-icons-container {
+    display: flex; /* Use Flexbox layout */
+    flex-direction: column; /* Stack icons vertically */
+    align-items: flex-start; /* Align icons to the left */
+    gap: 10px; /* Space between icons */
+}
+
+.custom-button {
+    font-size: 1.5rem; /* Adjust size if necessary */
+    padding: 5px; /* Adjust padding to minimize extra space */
+}
+
+html, body {
+    height: 100%; /* Ensure the body takes full height */
+    margin: 0; /* Remove default margin */
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the wrapper takes at least the full viewport height */
+}
+.wrapper {
+    flex: 1; /* Allow the content to grow and push the footer down */
+}
